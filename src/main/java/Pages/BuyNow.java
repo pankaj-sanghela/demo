@@ -35,5 +35,7 @@ public class BuyNow extends CommonPage{
         driver.switchTo().window(ParentWindow);
         System.out.println(driver.getCurrentUrl());
         System.out.println("hello Farye");
+
+        System.out.println("Changes done in fareye Statement");
     }
 }
