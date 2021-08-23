@@ -34,5 +34,6 @@ public class BuyNow extends CommonPage{
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.switchTo().window(ParentWindow);
         System.out.println(driver.getCurrentUrl());
+        System.out.println("hello Farye");
     }
 }
